@@ -61,3 +61,8 @@ footer{
     height: 5%;
     background-color: #1f2937;
 }
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+}
