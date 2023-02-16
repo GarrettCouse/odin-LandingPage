@@ -105,16 +105,19 @@ header{
 .body__3__container{
     flex-direction: row;
     display: flex;
-    background-color: #3883f6;
     width: 70%;
     height: 50%;
-    border-radius: 10px;
+    margin-top: 50px;
 }
+
 .body__3__description{
     width: 70%;
     height: 100%;
     text-align: center;
     padding-top: 4px;
+    background-color: #3883f6;
+    border-radius: 5px 0px 0px 5px;
+
 }
 .body__3__description h1{
     color: #f9faf8;
@@ -123,9 +126,11 @@ header{
     color: #f9faf8;
 }
 .body__3__button{
+    background-color: #3883f6;
     display: flex;
     width: 30%;
     height: 100%;
+    border-radius: 0px 5px 5px 0px;
 
 
 
