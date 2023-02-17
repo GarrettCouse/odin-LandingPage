@@ -73,13 +73,14 @@ header{
     border: none;
 }
 .header__img{
-    background-color: grey;
+    background-color: #a2a5ac;
     width: 50%;
     height: 100%;
     padding: 24px;
 }
 .header__img p{
     text-align: center;
+    color: #f9faf8;
 }
 
 /* Body 1*/
