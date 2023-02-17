@@ -95,7 +95,19 @@ header{
     height: 20%;
     background-color: #e5e7eb;
 }
-
+.body__2__container{
+    width: 50%;
+    text-align: end;
+    padding-top: 50px;
+}
+.body__2__p{
+    text-align: start;
+    color: #1f2937;
+    font-style: italic;
+}
+.body__2__note{
+    font-weight: bold;
+}
 /* Body 3*/
 .body--3{
     display: flex;
