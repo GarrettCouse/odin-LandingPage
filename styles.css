@@ -36,7 +36,7 @@ nav a{
 header{
     background-color: #1f2937;
     width: 100%;
-    height: 25%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,48 +85,84 @@ header{
 /* Body 1*/
 
 .body--1{
+    display: flex;
     width: 100%;
-    height: 25%;
+    height: 45%;
+    align-items: center;
+}
+
+.body__1__container{
+    display: flex;
+    width: 80%;
+    height: 60%;
+    border: 1px solid black;
+}
+.box__2{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+}
+.box__3{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+}
+.box__4{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+}
+.box__5{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+}
+.box__1{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
 }
 
  /* Body 2*/
 .body--2{
     width: 100%;
-    height: 20%;
+    height: 40%;
     background-color: #e5e7eb;
 }
 .body__2__container{
     width: 50%;
     text-align: end;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 .body__2__p{
+    font-size: 24px;
     text-align: start;
     color: #1f2937;
     font-style: italic;
 }
 .body__2__note{
+    font-size: 18px;
     font-weight: bold;
 }
 /* Body 3*/
 .body--3{
     display: flex;
     width: 100%;
-    height: 20%;
+    height: 30%;
+    align-items: center;
 }
 .body__3__container{
     flex-direction: row;
     display: flex;
     width: 70%;
     height: 50%;
-    margin-top: 50px;
 }
 
 .body__3__description{
     width: 70%;
     height: 100%;
     text-align: center;
-    padding-top: 4px;
+    padding-top: 8px;
     background-color: #3883f6;
     border-radius: 5px 0px 0px 5px;
 
@@ -143,9 +179,6 @@ header{
     width: 30%;
     height: 100%;
     border-radius: 0px 5px 5px 0px;
-
-
-
     justify-content: center;
     align-items: center;
 }
